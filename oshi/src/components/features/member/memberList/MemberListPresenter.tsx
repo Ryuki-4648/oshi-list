@@ -1,5 +1,8 @@
 // Presenter：ビジネスロジックを記載しない。描画を担うコンポーネント。
 
+import { Th } from "../../../ui/table/Th";
+import { Tr } from "../../../ui/table/Tr";
+
 export function MemberListPresenter() {
   return (
     <ul>
@@ -10,19 +13,18 @@ export function MemberListPresenter() {
           <table>
             <thead>
               <tr>
-                <th>aaa</th>
-                <td>bbbb</td>
+                <Th>aaaaaa</Th>
               </tr>
             </thead>
             <tbody>
-              <tr>
+              <Tr>
                 <th>aaa</th>
                 <td>bbbb</td>
-              </tr>
-              <tr>
+              </Tr>
+              <Tr>
                 <th>aaa</th>
                 <td>bbbb</td>
-              </tr>
+              </Tr>
             </tbody>
           </table>
         </div>
